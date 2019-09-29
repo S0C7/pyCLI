@@ -1,6 +1,6 @@
 # Python CLI
 
-## Steps
+## Steps to build and run
 1. Create a Virtual env. ``` python3 -m virtualenv clienv ```. This creates the local copy of python and pip in the folder `clienv`.
 2. Activate the virtual environment ``` . clienv/bin/activate ```. This activates the virtualenv so that python and pip commands now use the locally installed modules within folders: ```clienv/bin; clienv/include; clienv/lib```.
 3. After the above command you would now see `(clienv)` added in your terminal indicating use of local env. You can also run `which python3` or `which pip` to confirm these are now using your local versions of pip and python.
